@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Online Date Calculator</title>
+	<link type="text/css" rel="stylesheet" href="css/Date_Calc.css" />
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<script src="scripts/Date_Calc.js"></script>
+</head>
+<body onload="myTime()">
+	<div class="container">
+		<div class="content">
+			<nav class="switch_nav">
+			    <h2>在线日期计算器</h2>
+			    <span class="pipe"></span>
+				<a href="#" id="switch_day" class="switch_btn_focus">天数计算</a>
+				<span class="pipe"></span>
+				<a href="#" id="switch_date" class="switch_btn">日期推算</a>
+			</nav>
+			<div id="time"></div>
+
+			<div class="day_calc">
+				
+				从：
+				<input type="text" value="2017" id="SY1" />年
+				<input type="text" value="01" id="SM1" />月
+				<input type="text" value="01" id="SD1" />日
+				<br /><br />
+				到：
+				<input type="text" value="2017" id="SY2" />年
+				<input type="text" value="01" id="SM2" />月
+				<input type="text" value="01" id="SD2" />日
+				<br />
+				<input type="button" value="共 计：" onclick="cala()" />
+				<div class="box">
+				    <div class="cor"></div>
+				    <div class="num">
+				    	<span id="result1">0</span>
+					    <span>天</span>
+				    </div>
+				</div>
+			</div>
+			<div class="date_calc">
+				
+				与：
+				<input type="text" value="2017" id="SY3" />年
+				<input type="text" value="01" id="SM3" />月
+				<input type="text" value="01" id="SD3" />日
+				<br /><br />
+				相差：
+				<input type="text" value="0" id="dateDiff" />
+				<span>天</span>
+				<span>（输入负数则往前推算）</span>
+				<br />
+				<input type="button" value="查询日期" onclick="calb()" />
+				<div class="box">
+				    <div class="cor"></div>
+				    <div class="num">
+					    <span id="result2"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

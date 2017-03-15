@@ -1,0 +1,180 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,table,td,dl,dt,dd,form,input,button,select,fieldset,textarea,sub,sup,div,span,img{
+margin:0;
+padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+font-size:100%;
+font-weight:normal;
+}
+iframe,img{
+border:0 none;
+}
+img{
+vertical-align:top;
+}
+em{
+font-style:normal;
+}
+ul,li,ol{
+list-style:none outside none;
+}
+input,select,textarea{
+outline:none;
+}
+textarea{
+resize:none;
+}
+a{
+text-decoration:none;
+}
+
+
+/*清除浮动*/
+.clearfix:after{
+content:"";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix{
+*zoom:1;
+}
+:focus{
+outline:0;
+}
+.clear{
+clear:both;
+overflow:hidden;
+display:block;
+font-size:0;
+height:0;
+line-height:0;
+}
+
+
+body{
+	font-size: 20px;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",Arial,sans-serif;
+    background-color:#e8f5f8;   
+    color: #666;
+}
+
+
+.container{
+	text-align: center;
+}
+
+.content{
+	width:640px;
+	height:463px;
+    margin:10px auto;
+	background-color:#ebebeb;
+	border:1px #CCC solid;
+	border-radius: 10px;
+	z-index:-2;
+}
+.switch_nav{
+	width:640px;
+	height:63px; 
+	background-color:#107ecd; 
+	border-top-left-radius: 10px;
+	border-top-right-radius:10px;
+	top:0;  
+	z-index:-1;
+}
+.switch_nav h2,.switch_nav a,.switch_nav .pipe{
+	color:#fff;
+	display: inline-block;
+	line-height:63px;
+	height: 61px;
+	font-weight:bold;	
+}
+
+.switch_nav a{
+	width: 110px;
+	font-size:80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.switch_nav .pipe{
+	width: 2px;
+	height: 13px;
+	margin-left: 10px;
+	margin-right:10px;
+	background-color:  #e8e8e8;
+}
+.switch_nav .switch_btn_focus{
+	color:#107ecd;
+	background-color: #ebebeb;
+}
+.switch_nav .switch_btn{
+	background-color: #107ecd;
+}
+#time{
+	margin-top:20px;
+}
+.day_calc,.date_calc{
+	width: 476px;
+	height: 300px;
+	margin:0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.day_calc{
+	display: block;
+}
+.date_calc{
+	display: none;
+}
+.day_calc input[type="text"],.date_calc input[type="text"]{
+	width: 100px;
+	height: 30px;
+	padding-left:10px;
+	border:1px solid #d5d5d5;
+	border-radius: 5px;
+}
+.day_calc input[type="button"],.date_calc input[type="button"]{
+	width: 200px;
+	height:63px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	color:#006699;
+	position: relative;
+	bottom:-40px;
+}
+
+.box{
+	position: relative;
+	width:400px;
+	height:63px;
+    background-color: #fff;
+	border-radius: 10px;
+    font-size: 24px;
+	filter: drop-shadow(0 0 5px #ccc);
+	bottom: -80px;
+	left:40px;
+}
+.cor{
+	position: relative;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border:20px solid transparent;
+	border-bottom-color:#fff;
+	left: 45%;
+	bottom:60%;
+	overflow: hidden;
+}
+.num{
+	position: relative;
+	bottom:35%;
+	color:#006699;
+}
+#result1,#result2{
+	color: #666;
+}
+
