@@ -1,6 +1,6 @@
 function myTime(){
 	var myDate = new Date();
-	var year = myDate.getEullYear();
+	var year = myDate.getFullYear();
 	var month = myDate.getMonth();
 	var date = myDate.getDate();
 	var d = myDate.getDay();
