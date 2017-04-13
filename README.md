@@ -6,8 +6,3 @@
 
 [静态页面演示链接](https://lynachen.github.io/Date_Calc/Date_Calc.html)
 
-
-内容截图如下：
-
-![Date_Calc](css/images/date.png)
-![Date_Calc](css/images/day.png)
