@@ -1,7 +1,7 @@
 function myTime(){
 	var myDate = new Date();
 	var year = myDate.getFullYear();
-	var month = myDate.getMonth();
+	var month = myDate.getMonth() + 1;
 	var date = myDate.getDate();
 	var d = myDate.getDay();
 	weekday = new Array();
